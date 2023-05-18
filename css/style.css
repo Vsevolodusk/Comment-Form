@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  gap: 60px;
+}
+.comment_entry {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 80%;
+  height: 40%;
+  gap: 25px;
+}
+.userData {
+  height: 40px;
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+#userMark {
+  width: 10%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#userComment {
+  height: 80px;
+  width: 60%;
+  border: 1px solid grey;
+  padding-left: 20px;
+  font-size: 1.3rem;
+}
+.confirmBtn{
+    height: 50px;
+    width: 10%;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+    font-size: 1.2rem;
+}
+.comment_list{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+}
+.userComment{
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  border: 1px solid black;
+  text-align: center;
+}
